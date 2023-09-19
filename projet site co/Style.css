@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Satisfy";
+    src: url(./assets/fonts/Satisfy-Regular.ttf);
+}
+body{
+    font-family: "Satisfy" , Verdana, Tahoma, sans-serif;
+    background: url(./assets/img/)  center 10rem;
+    margin: 0;
+}
+nav {
+    overflow: hidden;
+    background-color: #f0e6d3;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+  }
+  main{
+    background-color: #f0e6d3;
+  }
+h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 5vw;
+    text-shadow: 5px 7px 6px #00000047;
+    color: black;
+    text-decoration: underline black;  
+}
+h2{
+    margin: 0;
+}
+.grid{
+    display: grid;
+}
+.grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "i1 i2 i3"
+    "i4 i5 i6";
+}
+.grid img{
+    height: 188px;
+    width: 250px;
+   
+}
+footer{
+    background-color: #c6e2e6;
+}
